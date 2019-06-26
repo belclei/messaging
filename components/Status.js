@@ -11,7 +11,7 @@ import React from "react";
 
 export default class Status extends React.Component {
   state = {
-    isConnected: true
+    isConnected: false
   };
 
   async componentWillMount() {
